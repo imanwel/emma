@@ -61,12 +61,12 @@ a {
 .boldFont {
   font-weight: bold;
 }
-.fullheight {
+/* .fullheight {
   height: 100%;
 }
 .fullwidth {
   width: 100%;
-}
+} */
 .visible-on-white {
   color: white;
 }
