@@ -82,5 +82,9 @@ a {
   }
   .ul {
     gap: 20px;
+    padding: 10px;
+  }
+  .ul li {
+    font-size: 13px;
   }
 }
