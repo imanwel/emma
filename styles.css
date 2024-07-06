@@ -466,6 +466,12 @@ footer {
     padding: 10px;
   }
 }
+@media (max-height: 400px) {
+  .child2 {
+    padding: 0;
+  }
+}
+
 @media (max-width: 450px) {
   .nav-bar li {
     font-size: 10px;
