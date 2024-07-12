@@ -161,6 +161,12 @@ button:hover {
   align-items: center;
   padding: 10px;
   box-shadow: 2px 6px 6px rgb(176, 14, 14);
+  transition: 2s;
+}
+.left:hover,
+.center:hover,
+.right:hover {
+  scale: 1.05;
 }
 .left-img,
 .center-img,
@@ -384,8 +390,11 @@ footer {
   }
 
   .child2 h1 {
-    font-size: 2rem;
+    font-size: 25px;
     /* display: none; */
+  }
+  .child2 p {
+    font-size: 12px;
   }
   .btn button {
     font-size: 8px;
@@ -424,8 +433,15 @@ footer {
   .center,
   .right {
     width: 90%;
+    /* transition: 0.5s; */
     /* height: 100vh; */
   }
+
+  /* .left:hover,
+  .center:hover,
+  .right:hover {
+    scale: 1.05;
+  } */
   .section2 {
     padding: 0;
   }
@@ -439,7 +455,7 @@ footer {
     /* border: 2px solid blue; */
     width: 100%;
     height: fit-content;
-    padding: 0;
+    margin: 0 auto;
   }
   .sider1,
   .sider2 {
